@@ -40,31 +40,7 @@ atividade-react-completa/
         └── Toast.jsx
 ```
 
-## Como executar localmente ou no GitHub Codespaces
-
-1. Crie um repositório no GitHub e envie os arquivos deste projeto.
-2. Abra o repositório e selecione **Code > Codespaces > Create codespace on main**.
-3. No terminal integrado, instale as dependências:
-
-   ```bash
-   npm install
-   ```
-
-4. Inicie o servidor:
-
-   ```bash
-   npm run dev
-   ```
-
-5. No Codespaces, abra a aba **Ports**, localize a porta `5173` e clique no endereço encaminhado para visualizar a aplicação.
-
-Para verificar se a aplicação compila:
-
-```bash
-npm run build
-```
-
-## Como os requisitos são atendidos
+## Requisitos
 
 - **Componentização:** cada componente visual obrigatório está em seu próprio arquivo.
 - **Props:** dados são enviados para Accordion, Pagination, ProgressBar, Tabs, Dropdown e Toast.
@@ -75,16 +51,3 @@ npm run build
 - **Acessibilidade:** HTML semântico, rótulos, foco visível, `aria-expanded`, `aria-controls`, `role`, `aria-live` e estados de seleção.
 - **Responsividade:** media queries reorganizam menu, cartões, abas e lista em telas menores.
 
-## Sugestão para o vídeo explicativo obrigatório
-
-Grave um vídeo curto mostrando:
-1. A aplicação aberta no navegador e a adaptação em tela menor.
-2. O progresso mudando ao marcar e desmarcar tarefas.
-3. A navegação entre as abas.
-4. O filtro do menu suspenso.
-5. A paginação e o acordeão.
-6. A notificação Toast aparecendo e desaparecendo.
-7. A estrutura de pastas e os arquivos dos seis componentes.
-8. O `TaskContext.jsx`, explicando que ele implementa o desafio extra de estado global.
-
-**Importante:** personalize textos, cores ou tarefas com suas próprias escolhas e estude o código para conseguir explicar individualmente as decisões e o funcionamento da solução, conforme a orientação da atividade.
