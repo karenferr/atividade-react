@@ -1,6 +1,6 @@
-# TaskFlow — Atividade React.js
+# TaskFlow — React.js
 
-Aplicação responsiva de gerenciamento de tarefas desenvolvida para demonstrar os requisitos da atividade acadêmica.
+Aplicação responsiva de gerenciamento de tarefas.
 
 ## Tecnologias
 - React.js com componentes funcionais
@@ -20,7 +20,7 @@ Aplicação responsiva de gerenciamento de tarefas desenvolvida para demonstrar 
 ## Organização dos arquivos
 
 ```text
-atividade-react-completa/
+atividade-react/
 ├── index.html
 ├── package.json
 ├── vite.config.js
